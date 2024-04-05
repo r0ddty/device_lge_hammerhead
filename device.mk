@@ -557,6 +557,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Device was launched with K
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
 
+# Partitions
+$(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
+
 # Broadcom BT driver
 $(call inherit-product-if-exists, $(LOCAL_PATH)/bluetooth/bcm.mk)
 
