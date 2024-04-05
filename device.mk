@@ -552,10 +552,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.binary_xml=false
 
-# VNDK
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vndk.version=current
-
 # Device was launched with K
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
 
