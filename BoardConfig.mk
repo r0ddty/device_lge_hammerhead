@@ -119,7 +119,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += device/lge/hammerhead/sepolicy/vendor
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += device/lge/hammerhead/sepolicy/private
 
 DEVICE_MANIFEST_FILE := device/lge/hammerhead/manifest.xml
-DEVICE_MATRIX_FILE := device/lge/hammerhead/compatibility_matrix.xml
 
 TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
 TARGET_HAS_HH_VSYNC_ISSUE := true
