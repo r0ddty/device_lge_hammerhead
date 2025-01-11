@@ -5,3 +5,5 @@ if [ ! -f vendor/lineage/.mdf ]; then
     rm -rf vendor/lineage
     git clone https://github.com/r0ddty/ul-android_vendor_lineage vendor/lineage
 fi
+
+rm -rf hardware/sony/timekeep
